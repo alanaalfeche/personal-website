@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Sidebar from './components/Sidebar/Sidebar'
+import Article from './components/Article/Article'
 
+import data from './Articles.json'
 
 const Container = styled.div`
   text-align: center;
@@ -10,34 +12,40 @@ const Container = styled.div`
   width: 100vw;
 `;
 
-const Header = styled.h2`
+const Header = styled.h4`
   color: #202C39;
+  text-align: left;
 `
 
 const Articles = styled.div`
   width: 100vw;
-  padding: 20px;
+  padding: 0px 20px;
+  max-height: 100vh;
+  overflow-y: scroll;
 `;
 
-const Article = styled.div`
-  height: 250px;
-  width: 100%;
-  border: 1px solid #202C39;
-`;
-
-function App() {
-  return (
-    <Container>
-      <Sidebar />
-      <Articles>
-        <Header>Recent Articles</Header>
-        <Article>
-          <p>Title</p>
-          <p>mm/dd/yyyy</p>
-        </Article>
-      </Articles>
-    </Container>
-  );
+class App extends React.Component {
+  render() {
+    const article = data.Articles;
+    console.log(article);
+    return (
+      <Container>
+        <Sidebar />
+        <Articles>
+          <Header>500 words or less posts:</Header>
+          {
+            article.map(a => (
+              <Article
+                title={a.title}
+                date={a.date}
+                summary={a.summary}
+              />
+            ))
+          }
+        </Articles>
+      </Container>
+    ) 
+  }
 }
 
 export default App;
