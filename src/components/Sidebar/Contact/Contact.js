@@ -8,10 +8,8 @@ import { ReactComponent as Linkedin } from './linkedin.svg';
 
 const Div = styled.div`
     display: flex;
-    margin: 80px 100px;
+    margin: 50px 100px 10px 90px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
 `;
 
 class Contact extends React.Component {
