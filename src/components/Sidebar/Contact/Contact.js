@@ -8,17 +8,22 @@ import { ReactComponent as Linkedin } from './linkedin.svg';
 
 const Div = styled.div`
     display: flex;
-    margin: 50px 100px 10px 90px;
+    justify-content: space-evenly;
     text-align: center;
+    padding: 20px;
+`;
+
+const Info = styled.a`
+
 `;
 
 class Contact extends React.Component {
     render() {
         return (
             <Div>
-                <Email />
-                <Github />
-                <Linkedin />
+                <Info href=""><Email /></Info>
+                <Info href="https://github.com/alanaalfeche"><Github /></Info>
+                <Info href="https://www.linkedin.com/in/alanaalfeche/"><Linkedin /></Info>
             </Div>
         )
     }
