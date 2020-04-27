@@ -32,7 +32,7 @@ class App extends React.Component {
       <Container>
         <Sidebar />
         <Articles>
-          <Header>500 words or less posts:</Header>
+          <Header>500 words or less:</Header>
           {
             article.map(a => (
               <Article

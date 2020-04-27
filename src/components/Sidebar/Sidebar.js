@@ -46,8 +46,13 @@ class Sidebar extends React.Component {
                 </div>
 
                 <Text>
-                I participated in Capital One’s first software engineering boot camp for six months before starting my career as a Data Engineer. My previous experience as a published researcher served me well following the bootcamp as I was tasked with projects in exploring proof-of-concepts for new AWS services such as Neptune, Aurora, and Athena. My expertise in databases earned me a nomination to AWS Data Hero in 2019. Currently, I am part of a great initiative in modernizing the rewards platform for external partners at Capital One. 
+                I participated in a software engineering boot camp for six months before starting my career as a Software/Data Engineer. My previous experience as a published researcher served me well following the bootcamp as I was tasked with proof-of-concepts projects to explore new Amazon Web Services databases services i.e. Neptune and Aurora. My expertise in databases earned me a nomination to AWS Data Hero in 2019.
                 </Text>
+
+                <Text>
+                The purpose of this web application is to serve as an archive of all notes I have collected in different subjects that interest me. 
+                </Text>
+
                 <div>
                     <School 
                         degree="M.S. Bioinformatics"
