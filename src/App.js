@@ -27,18 +27,19 @@ const Articles = styled.div`
 class App extends React.Component {
   render() {
     const article = data.Articles;
-    console.log(article);
     return (
       <Container>
         <Sidebar />
         <Articles>
-          <Header>500 words or less:</Header>
+          <Header>250 words or less:</Header>
           {
             article.map(a => (
               <Article
                 title={a.title}
                 date={a.date}
                 summary={a.summary}
+                citation={a.citation}
+                tags={a.tags}
               />
             ))
           }

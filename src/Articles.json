@@ -1,24 +1,11 @@
 {
     "Articles": [
         {
-            "title": "Title",
-            "date": "04/26/2020",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-            "title": "Title",
-            "date": "04/20/2020",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-            "title": "Title",
-            "date": "04/20/2020",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-            "title": "Title",
-            "date": "04/20/2020",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            "title": "Summary: Photo-oncogenes",
+            "date": "04/29/2020",
+            "summary": "Cancer cells are generally induced by activated photo-oncogenes — genes that when mutated cause normal cells to become cancer cells. The mutated version of photo-oncogenes is termed “oncogenes” and it disrupts cell regulation by promoting cell proliferation, inhibit cell differentiation, and halt cell death. So, how does photo-oncogene become oncogene? Oncogene is a result of high expression level of mutations in proto-oncogene. Genetic mechanism that can induce oncogene activation includes: 1) Point mutation, deletion, insertions that leads to a hyperactive gene 2) Point mutation, deletion, insertion in the promoter region that leads to aberrant transcription 3) Gene amplifications events producing extra chromosomal copies of proto-oncogene 4) Chromosomal translocation events that relocate proto-oncogene to a new chromosomal site that leads to higher expression 5) Chromosomal translocations that lead to a fusion between a proto-oncogene and a second gene, which produces a fusion protein with oncogenic activity. It is important to note that cancer is most likely to be a multistep process during which cells acquire series of mutations that collectively lead to increased proto-oncogene function. Thus, targeting specific oncogene is never enough to defeat cancer due to the complex nature of its formation in the first place.",
+            "citation": "Chial, H. (2008) Proto-oncogenes to oncogenes to cancer. Nature Education 1(1):33",
+            "tags": ["biology,", " summary"]
         }
     ]
 }
