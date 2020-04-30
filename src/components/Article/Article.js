@@ -20,7 +20,7 @@ class Article extends React.Component {
         return (
             <Container>
                 <div style={{ padding: 20 }}>
-                    <p>{this.props.title}</p>
+                    <h3>{this.props.title}</h3>
                     <p>{this.props.date}</p>
                     <p style={{ textAlign: 'justify' }}>{this.props.summary}</p>
                     <p>{this.props.citation}</p>
