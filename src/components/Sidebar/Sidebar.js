@@ -7,7 +7,7 @@ import Contact from './Contact/Contact';
 
 
 const Div = styled.div`
-    background-color: #202C39; //#1c315f #152b5a #355e9a #135888 #253233 #202C39
+    background-color: #202C39;
     min-height: 100vh;
     max-width: 350px;
     display: flex;
@@ -40,19 +40,9 @@ class Sidebar extends React.Component {
                 <div style={{ textAlign: 'center' }}>
                     <Logo />
                 </div>
-                <div>
-                    <Header>Alana Alfeche</Header>
-                    <Subheader>Engineer ϟ Bioinformatician</Subheader>
-                </div>
-
                 <Text>
-                I participated in a software engineering boot camp for six months before starting my career as a Software/Data Engineer. My previous experience as a published researcher served me well following the bootcamp as I was tasked with proof-of-concepts projects to explore new Amazon Web Services databases services i.e. Neptune and Aurora. My expertise in databases earned me a nomination to AWS Data Hero in 2019.
+                My purpose for this web-app is to share notes and how-to-guides on subjects that perks my interest. Currently I am seeking the breadth of knowledge in bioinformatics, software engineering, and data science. Once I gain mastery of each domain and find a way to integrate my interests, only then will my ultimate goal of becoming an expert in my own niche will be realize. 
                 </Text>
-
-                <Text>
-                The purpose of this web application is to serve as an archive of all notes I have collected in different subjects that interest me. 
-                </Text>
-
                 <div>
                     <School 
                         degree="M.S. Bioinformatics"

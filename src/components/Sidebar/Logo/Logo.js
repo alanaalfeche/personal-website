@@ -5,9 +5,8 @@ import logo from './logo.png'
 
 
 const Image = styled.img`
-    width: 50px;
-    height: 50px;
-    margin: 15px;
+    width: 200px;
+    height: 200px;
 `;
 
 function Logo() {
