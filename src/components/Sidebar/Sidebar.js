@@ -30,7 +30,7 @@ class Sidebar extends React.Component {
                     <Logo />
                 </div>
                 <Text>
-                My purpose for this web-app is to share notes and how-to-guides on subjects that perks my interest. Currently I am seeking the breadth of knowledge in bioinformatics, software engineering, and data science. Once I gain mastery of each domain and find a way to integrate my interests, only then will my ultimate goal of becoming an expert in my own niche will be realize. 
+                The purpose of this website is to share notes and how-to guides on subjects that pique my curiosity. My areas of interest are bioinformatics, software engineering, and data science. Unifying these three fields is my ultimate goal. 
                 </Text>
                 <div>
                     <School 
