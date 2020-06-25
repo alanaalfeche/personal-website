@@ -15,17 +15,6 @@ const Div = styled.div`
     justify-content: space-evenly;
 `;
 
-const Header = styled.h1`
-    color: white;
-    margin: 0px;
-`;
-
-const Subheader = styled.h3`
-    color: white;
-    font-weight: 300;
-    margin:0px;
-`;
-
 const Text = styled.p`
     color: white;
     text-align: justify;
