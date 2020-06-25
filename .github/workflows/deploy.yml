@@ -12,15 +12,18 @@ jobs:
             DEPLOY_BRANCH: gh-pages
         steps:
             - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
             - run: |
+                git fetch origin refs/tags/*:refs/tags/*
                 npm install
+                npm run build
                 git checkout --orphan $DEPLOY_BRANCH
                 git config --local user.email "action@github.com"
                 git config --local user.name "Github Action"
                 git config --local core.worktree $(pwd)/$BUILD_DIR_PATH
                 git add -A
                 git commit -m "Auto-deploy $GITHUB_SHA"      
-            - uses: ad-m/github-deploy-actions@master
+            - uses: ad-m/github-push-action@master
               with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
                 branch: ${{ env.DEPLOY_BRANCH }}

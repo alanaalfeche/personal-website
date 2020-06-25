@@ -1,5 +1,5 @@
 {
-  "name": "personal-website",
+  "name": "blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,5 +32,5 @@
     "gh-pages": "^2.2.0",
     "react-scripts": "^3.4.1"
   },
-  "homepage": "http://alanaalfeche.github.io/personal-website"
+  "homepage": "http://alanaalfeche.github.io/blog"
 }
