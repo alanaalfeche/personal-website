@@ -12,9 +12,19 @@ const Container = styled.div`
   width: 100vw;
 `;
 
-const Header = styled.h4`
+const Filters = styled.div`
+  display: flex;
+  flex-direction: row-reverse;
+`
+
+const Filter = styled.h4`
   color: #202C39;
   text-align: left;
+  padding: 15px;
+  border: 1px solid #202c3929;
+  background-color: #fedf599c;
+  border-radius: 25px;
+  margin-left: 10px;
 `
 
 const Articles = styled.div`
@@ -31,7 +41,12 @@ class App extends React.Component {
       <Container>
         <Sidebar />
         <Articles>
-          <Header>250 words or less:</Header>
+          <Filters>
+            {/* Make this active / non-active */}
+            <Filter>250 words or less</Filter>
+            <Filter>Filter2</Filter>
+            <Filter>Filter3</Filter>
+          </Filters>
           {
             article.map(a => (
               <Article
