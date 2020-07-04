@@ -5,10 +5,10 @@ import styled from 'styled-components';
 const Container = styled.div`
     min-height: 250px;
     width: 100%;
-    border: 1px solid #202C39;
+    border: 1px solid #212c3926;
     text-align: left;
     margin-bottom: 20px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 `;
 
 const Tag = styled.p`
