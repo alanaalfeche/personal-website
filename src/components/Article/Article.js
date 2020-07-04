@@ -22,7 +22,7 @@ class Article extends React.Component {
                 <div style={{ padding: 20 }}>
                     <h3>{this.props.title}</h3>
                     <p>{this.props.date}</p>
-                    <p style={{ textAlign: 'justify' }}>{this.props.summary}</p>
+                    <p style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: this.props.summary }}/>
                     <p>{this.props.citation}</p>
                     <Tag>{this.props.tags}</Tag>
                 </div>
