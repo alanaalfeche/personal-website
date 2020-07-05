@@ -6,7 +6,7 @@ My personal website and blog. Topics I will write about:
     - Data Structure
         - [x] Elementary Data Structures
         - Binary Tree / Tries
-        - Hash Tables
+        - [x] Hash Tables
     - Algorithms
         - Sorting Algorithms
     - Concepts
