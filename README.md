@@ -1,22 +1,40 @@
 ### `Alana Alfeche`
 
-My personal website and blog. Topics I will write about:
+My personal website and blog. Topics I write about:
 - Bioinformatics
+    - [ ] Metagenomics
+    - Distance Algorithms 
+        - [ ] Neighbor Joining 
+        - [ ] Maximum Parsimony
+        - [ ] Maximum Likelihood
+        - [ ] Bayesian Inference
 - Computer Science
     - Data Structure
         - [x] Elementary Data Structures
-        - Binary Tree / Tries
         - [x] Hash Tables
-    - Algorithms
-        - Sorting Algorithms
+        - [x] Binary Tree 
+        - Tries
+    - Sorting Algorithms
+        - [ ] Selection Sort
+        - [ ] Insertion Sort
+        - [ ] Quick Sort
+        - [ ] Merge Sort 
+        - [ ] Heap Sort
     - Concepts
-        - Big-O Time
-        - Fibonacci: Recursion vs Recursion-memoization vs Dynamic Programming
+        - [ ] Bit Manipulation
+        - [ ] Big O Notation
+        - [ ] Fibonacci Numbers: Recursion vs Recursion-memoization vs Dynamic Programming
 - Software Engineering
     - Coding Patterns
-        - Factory Design Pattern
-        - Singleton Design Pattern
+        - [ ] Factory Design Pattern
+        - [ ] Singleton Design Pattern
     - Amazon Web Services
+        - Databases 
+            - [ ] Neptune
+            - [ ] RDS
+        - Analytics
+            - [ ] EMR
+            - [ ] ECS   
     - Docker
 - Data Science
     - Panda
