@@ -9,7 +9,7 @@ import Contact from './Contact/Contact';
 const Container = styled.div`
     background-color: #202C39;
     min-height: 100vh;
-    max-width: 350px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
