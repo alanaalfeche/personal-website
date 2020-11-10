@@ -3,11 +3,8 @@ import styled from 'styled-components';
 
 
 const Container = styled.div`
-    min-height: 250px;
     width: 100%;
-    border: 1px solid #212c3926;
     text-align: left;
-    margin-bottom: 20px;
     word-wrap: break-word;
 `;
 
@@ -25,6 +22,7 @@ class Article extends React.Component {
                     <p style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: this.props.summary }}/>
                     <p>{this.props.citation}</p>
                     <Tag>{this.props.tags}</Tag>
+                    <hr style={{border: '1px solid rgb(238 238 238)'}}></hr>
                 </div>
             </Container>
         )

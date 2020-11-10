@@ -13,7 +13,7 @@ const Container = styled.div`
 `;
 
 const Articles = styled.div`
-  padding: 20px;
+  width: 100vw;
 `;
 
 class App extends React.Component {
