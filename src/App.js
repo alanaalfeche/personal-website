@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Sidebar from './components/Sidebar/Sidebar'
 import Article from './components/Article/Article'
 
 import data from './Articles.json'
@@ -12,24 +11,9 @@ const Container = styled.div`
   width: 100vw;
 `;
 
-const Filters = styled.div`
-  display: flex;
-  flex-direction: row-reverse;
-`
-
-const Filter = styled.h4`
-  color: #202C39;
-  text-align: left;
-  padding: 15px;
-  border: 1px solid #202c3929;
-  background-color: #fedf599c;
-  border-radius: 25px;
-  margin-left: 10px;
-`
-
 const Articles = styled.div`
   width: 100vw;
-  padding: 0px 20px;
+  padding: 20px;
   max-height: 100vh;
   overflow-y: scroll;
 `;
@@ -39,12 +23,7 @@ class App extends React.Component {
     const article = data.Articles;
     return (
       <Container>
-        <Sidebar />
         <Articles>
-          <Filters>
-            {/* Make this active / non-active */}
-            <Filter>250 words or less</Filter>
-          </Filters>
           {
             article.map(a => (
               <Article
