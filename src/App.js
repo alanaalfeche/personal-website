@@ -2,20 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Article from './components/Article/Article'
+import Logo from './components/Logo/Logo'
 
 import data from './Articles.json'
 
 const Container = styled.div`
-  text-align: center;
   display: flex;
-  width: 100vw;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const Articles = styled.div`
-  width: 100vw;
   padding: 20px;
-  max-height: 100vh;
-  overflow-y: scroll;
 `;
 
 class App extends React.Component {
@@ -23,6 +21,7 @@ class App extends React.Component {
     const article = data.Articles;
     return (
       <Container>
+        <Logo />
         <Articles>
           {
             article.map(a => (
