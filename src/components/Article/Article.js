@@ -8,7 +8,7 @@ const Container = styled.div`
     border: 1px solid #212c3926;
     text-align: left;
     margin-bottom: 20px;
-    // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    word-wrap: break-word;
 `;
 
 const Tag = styled.p`
