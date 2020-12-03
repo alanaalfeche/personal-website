@@ -1,10 +1,1 @@
-### `Alana Alfeche`
-
-This is my personal blog. The purpose of this website is to share notes on subjects that pique my curiosity. Topics I will write about:
-- Biology
-- Bioinformatics
-- Computer Science
-- Material Science
-- Software Engineering
-- Amazon Web Services
-- And SCOBY!
+### This is where I add all my notes that I do not want to forget, so I can access it wherever I go... well, as long as I have an internet connection...

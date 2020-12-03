@@ -1,5 +1,12 @@
 {
     "Articles": [
+        {
+            "title": "Airflow",
+            "date": "11/02/2020",
+            "summary": "Airflow allows you to author, schedule, and monitor workflows as Directed Acyclic Graph (DAG) of tasks. The central elements of a DAG include the task, the operator, and the hook. A DAG describes the relationship and dependencies of tasks within a workflow. A task is a unit of work, and each task is an implementation of an operator. An operator determines what needs to gets done. It is atomic and can stand-alone. Hooks are the building blocks of operators. It is the interface to external platforms and databases. In short, hooks -> operators -> tasks -> DAG! The Airflow scheduler uses an executor to run ready tasks, starting a DAG workflow.",
+            "citation": "https://airflow.apache.org/docs/stable/index.html",
+            "tags": ["software engineering,", " summary"]
+        },
         {   
             "title": "Binary Search Tree",
             "date": "07/05/2020",
